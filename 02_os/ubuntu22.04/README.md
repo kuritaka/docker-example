@@ -13,9 +13,9 @@
 $ ls
 Dockerfile
 
-$ docker build -t ubuntu1 .
+$ docker build -t ubuntu1
 or
-$ docker build -f Dockerfile1 -t ubuntu1 . 
+$ docker build -f Dockerfile1 -t ubuntu1
 
 $ docker images
 
