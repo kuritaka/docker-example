@@ -36,9 +36,9 @@ docker rmi <IMAGE ID>
 $ ls
 Dockerfile
 
-$ docker build -t rockylinux9-1 .
+$ docker build -t rockylinux9-1             # Dockerfile is used.
 or
-$ docker build -f Dcokerfile-systemd -t rockylinux9-1 .
+$ docker build -f Dcokerfile-systemd -t rockylinux9-1
 
 
 $ docker images
@@ -80,7 +80,7 @@ $ docker-compose ps
 $ docker-compose stop
 $ docker-compose rm
 
-# stop adn rm
+# stop and rm
 $ docker-compose down
 ```
 
