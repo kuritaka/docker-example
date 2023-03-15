@@ -36,9 +36,9 @@ docker rmi <IMAGE ID>
 $ ls
 Dockerfile
 
-$ docker build -t rockylinux9-1             # Dockerfile is used.
+$ docker build -t rockylinux9-1 .             # Dockerfile is used.
 or
-$ docker build -f Dcokerfile-systemd -t rockylinux9-1
+$ docker build -f Dcokerfile-systemd -t rockylinux9-1 .
 
 
 $ docker images
